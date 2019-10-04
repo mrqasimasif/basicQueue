@@ -9,6 +9,7 @@ The tailRef will be pointing to the last node element of the Queue
 using namespace std;
 
 class cQueue : protected cStack {
+protected:
 	// The trailing tail pointer to keep look at the last node of the Queue
 	cNode *tailRef;
 public:
