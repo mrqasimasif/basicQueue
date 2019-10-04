@@ -11,6 +11,9 @@ public:
 	//Reference to next cNode Object
 	cNode* nextNode;
 
+	//Priority element of each node element
+	int priority;
+
 	//Using this pointer to refer to the same class object
 	//Basic Class Constructors / Overlaoded constructors
 	cNode() { this->data = -1; }
